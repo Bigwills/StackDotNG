@@ -1,0 +1,217 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyExperienceWithCssGrids</title>
+	<meta charset="utf-8">
+	<meta name="description" content="my first code">
+	<meta name="keywords" content="java, html, css, script, cv, curriculum vitae, html tables">
+	<meta name="author" content="Wofai WIllie Ikpi">
+	<meta name="viewpoint" content="width=device=width, initial-scale=1.0">
+<style>
+    tr:nth-child(even) {background-color: gainsboro;}
+    tr:nth-child(odd) {background-color:#f2f2f2;}
+    th {background-color: white;}
+    
+
+    table {
+        border-collapse: collapse;
+        width: 90%;
+        column-width: auto;
+        table-layout: inherit;
+        
+    }
+    td {
+        text-align: left;
+        vertical-align: top;
+        border:1px solid lightgrey;
+        padding: 1em;
+        
+        
+    }
+
+	.container {
+		display: grid;
+		grid-template-columns: 3.5fr 1.5fr;
+		grid-gap: 3px;
+		background-color: lightgrey;
+        padding: 0.4em;
+        min-width: 60em;
+	}
+	
+	div {
+		padding: 1.5em;
+	}	
+	.Header {
+        background-image: url(https://res.cloudinary.com/bigwills/image/upload/v1567590973/StartDotNG/bridge_xg49gx.jpg);
+		/*background-attachment: fixed;*/
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+        /*background-color: dodgerblue;*/
+		grid-area: 1/1/2/4;
+        font-size: 7em;
+        color: aliceblue;
+    }
+
+	.header2 {
+		background-color: darkorange;
+		grid-area:2/1/3/4;
+        font: 13px;
+        color: white;
+		
+	}
+	.binfo {
+		background-color: dimgrey;
+		grid-area:3/2/4/3;
+        color: white;
+        padding: 0;
+    }
+	.pstatm {
+		background-color: dimgrey;
+		grid-area: 4/2/5/3;
+        color: white;
+	}
+	.skills {
+		background-color: white;
+		grid-area: 3/1/5/2;
+	}
+	.interests {
+		background-color: darkcyan;
+		grid-area: 6/1/7/3;
+        color: white;
+	}
+	.reference {
+		background-color: white;
+		grid-area: 7/1/8/3;
+	}
+	.contactme {
+		background-color: darkorange;
+		grid-area: 8/1/9/3;
+        color: white;
+	}
+
+	body {
+		background-color: black;
+		font-family: verdana;
+        font-size: 10px;
+        width: 70%;
+        margin: auto auto;
+        color: darkslategray;
+	}
+
+	#myimage {
+		width: 100%;
+        padding:
+	}
+    h1 {
+        text-align: left;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="Header">WOFAI WILLIE IKPI</div>
+	<div class="header2">
+		17 Esam Abasi Lane, Ikot Ansa, Calabar.<br>
+		wofaiwikpi@yahoo.com<br>
+		<a href="https://www.linkedin.com/in/wofaiwikpi">www.linkedin.com/in/wofaiwikpi</a><br>
+		+2348034057480
+	</div>
+	<div class="skills">
+		<table id="tabu">
+            <tr><th colspan="2"><h1>EDUCATION/PROFESSIONAL QUALIFICATION</h1></th></tr>
+			<tr>
+				<td id="tab1">November 2017:</td>
+				<td>INSTITUTE OF CHARTERED ACCONTANTS OF NIGERIA (ICAN) - <b>Member ID: 042507</b>
+			</td>
+			<tr>
+				<td id="tab1">November 2013:</td>
+				<td>B.Sc (Hons) in Economics.<br>
+					University of Calabar, Calabar.<br>
+					<b>2nd Class Upper Division</b></td>
+			</tr>
+			<tr>
+				<td id="tab1">December 2008:</td>
+				<td>Diploma in Computer Maintenance and Repairs.<br>Pacific Computer and Management College, Calabar.</td>
+			</tr>
+			<tr>
+				<td id="tab1">March 2006:</td>
+				<td>Diploma in Information Technology.<br>Pacific Computer and Management College, Calabar.</td>
+			</tr>
+		</table>
+		<table id="tabu">
+			<tr>
+			<th colspan="2"><h1>EMPLOYMENT HISTORY:</h1></th>
+			</tr>
+				<tr>
+						<td>2018 Till Date:</td>
+						<td><strong>Senior Accounts Officer</strong><br>Bursary Department.<br> University of Calabar, Calabar.</td>
+						</tr>
+					<tr>
+					<td id="tab1">2015-2018:</td>
+						<td><strong>Higher Econometric Technician</strong><br>Department of Economics,<br> University of Calabar, Calabar, Calabar.<br>
+							<br>
+							<i><strong>Duties Included:</strong></i>
+							<ul><li>In charge of the management of the econometric lab as well as guide students on how to use econometric software (eviews 10.5) for economic data analysis.</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+					<td id="tab1">2017:</td>	
+					<td><strong>Audits/Accounts Trainee(Volunteer Service)</strong><br>Dan Oku & Co. Chartered Accountant,<br> 102 Ndidem Usang Iso Road, Marian, Calabar.<br>
+							<br>
+							<i><strong>Duties Included:</strong></i>
+							<ul><li>During an audit, my duty is to check revenues, expenditures and other financial records to ensure that they are accurate and that relevant standards and regulations are being complied with</li>
+							<li>I also work with the audit senior at whatever capacity he requires of me.</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+					<td id="tab1">2013-2014:</td>	
+					<td><strong>NATIONAL YOUTH SERVICE (NYSC)</strong><br>Investigations Officer(NYSC Trainee),<br> Public Complaints Commission,<br>Maitama, Abuja.
+							<br>
+							<i><strong>Duties Included:</strong></i>
+							<ul><li>Carried out investigation on complaint (cases between complainants and public concerns) lodged into the commission on the directive of the assistant director of public investigation.</li>
+							<li>Served as a link between public complainants and respondents.</li>
+							<li>Following up cases and/or letters sent to respondents and eventually resolving and closing the cases.</li><li>Assisting with routine admin tasks.</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+	</div>
+	<div class="binfo">
+		<img src="https://res.cloudinary.com/bigwills/image/upload/v1566547702/StartDotNG/20190823_090600_vupyqc.jpg" alt="this is my photo" id="myimage">
+	</div>
+	<div class="pstatm">
+		<h1>PERSONAL STATEMENT</h1>
+		A Chartered Accountant and a graduate of Economics, looking to apply his skills and knowledge in a fast paced and growth oriented organization. My career goal is to assume responsibility for the analysis of financial data as well as excel in an accounting or internal audit function, and contribute to the overall success of any firm I eventually work for.
+        <h1>BASIC INFORMATION</h1>
+		<strong>DATE OF BIRTH:</strong>	26th August, 1989<br><strong>SEX:</strong>	Male<br><strong>MARITAL STATUS:</strong>	Single
+        
+        <h1>SKILLS</h1>
+		<ul>
+			<li>Beginner knowledge of web development with HTML and CSS.</li>
+			<li>Highly ambitious and self-driven.</li>
+			<li>Good numerical skills with the ability to analyze and interpret data.</li>
+			<li>Good interpersonal and communication skills with great appetite for learning.</li>
+			<li>Proficient in the use of Microsoft office (Excel, Word etc).</li>
+			<li>Beginner knowledge of ERP software (SAP).</li>
+			<li>Strong financial analysis and reporting skills.</li>
+		</ul>
+	</div>
+		
+	<div class="interests">
+		<h1>INTERESTS:</h1>
+		<ul>
+			<li>tennis</li>
+			<li>reading</li>
+			<li>travel & tourism</li>
+		</ul>
+	</div>
+	<div class="reference">References will be made available on request.</div>
+	<div class="contactme">CONTACT ME:</div>
+</div>
+
+
+</body>
+</html>
